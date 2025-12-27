@@ -35,6 +35,26 @@ This project designs and implements a segmented smart-home lab environment to re
 - **Home Assistant**: automation and integrations
 - **Mosquitto (MQTT)**: messaging layer for IoT (publish/subscribe)
 
+## Screenshots (Evidence)
+
+![Topology](docs/capturas/topology.png)
+
+![pfSense config](docs/capturas/Pfsense_conf.png)
+![Subinterfaces / VLANs](docs/capturas/conf_subinterfaces.png)
+
+![IoT VLAN rules](docs/capturas/-9Firewall_Rules_Vlan10.png)
+![Guest VLAN rules](docs/capturas/-10Firewall_rules_Vlan20.png)
+
+![OpenVPN server](docs/capturas/13-openvpn-server..png)
+![OpenVPN client connected](docs/capturas/15-openvpn-client.png)
+
+![pfBlockerNG DNSBL stats](docs/capturas/22-pfblockerng-dnsbl-stats.png)
+
+![HA MQTT device](docs/capturas/29-ha-mqtt-device.png)
+![Lamp ON](docs/capturas/30-ha-lamp-on.png)
+![Automation YAML](docs/capturas/32-ha-automation-yaml.png)
+
+
 > Diagram and screenshots: see `/docs/`.
 
 ---
