@@ -1,0 +1,24 @@
+# Virtual machines / images
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.iso
+
+# Backups / exports (often contain secrets)
+*.xml
+*.bak
+*.backup
+
+# Logs / captures
+*.log
+*.pcap
+*.pcapng
+
+# Secrets
+.env
+*.key
+*.pem
+id_rsa*
+*.p12
+*.ovpn
